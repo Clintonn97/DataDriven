@@ -1,0 +1,26 @@
+package exception;
+
+public class arithmeticexception {
+	
+	
+		public void sum(){
+		throw new ArithmeticException("Exception");
+		}
+		public static void main(String[] args) {
+		arithmeticexception obj = new arithmeticexception ();
+		obj.sum();
+		}
+		
+		//------------------------------------------------------------------------------------------------
+		
+		 
+		  
+		  public class Exp4 { public void m()throws ArithmeticException{ int a=100/0;
+		  System.out.println(a); } public static void main(String[] args) { Exp4 obj =
+		  new Exp4(); obj.m(); }
+		 
+	}
+
+
+}
+

@@ -1,0 +1,21 @@
+package com.pomclass;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class pomclass2 {
+	
+	public WebElement getPassword() {
+		return password;
+	}
+
+	public void setPassword(WebElement password) {
+		this.password = password;
+	}
+
+	@FindBy(xpath = "//*[@id=\'password\']")
+	private WebElement password;
+	
+	
+
+}

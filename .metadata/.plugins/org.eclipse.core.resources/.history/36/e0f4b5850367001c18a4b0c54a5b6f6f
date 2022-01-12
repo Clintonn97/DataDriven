@@ -1,0 +1,13 @@
+package exception;
+
+import exception.arithmeticexception.Exp4;
+
+public class arithmeticexeptionthrows {
+	
+	 public void m()throws ArithmeticException{ int a=100;
+	  System.out.println(a); } public static void main(String[] args) { arithmeticexeptionthrows obj =
+	  new arithmeticexeptionthrows(); obj.m(); }
+	 
+}
+
+

@@ -1,0 +1,11 @@
+package Array;
+
+public class arrayexample {
+	
+	public static void main(String[] args) {
+		
+	int []b = {10,20,30,40,50};
+	
+			System.out.println(b[1]);
+	}
+}

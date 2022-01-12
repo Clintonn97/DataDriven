@@ -1,0 +1,13 @@
+package seleniumlearning;
+
+public class opengoogle {
+
+	//Test Case
+	//open google
+	//open google home page
+	
+	//to open browsers syntax.
+	
+	//System.setproperty("name","location")
+	
+     System.setproperty("webdriver.chrome.driver","C:\\Users\\clinton97\\Downloads\\chromedriver.exe")
